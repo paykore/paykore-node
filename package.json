@@ -1,6 +1,6 @@
 {
   "name": "@paykore/sdk",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "PayKore Web SDK",
   "type": "module",
   "main": "./dist/index.cjs",
@@ -13,7 +13,9 @@
       "types": "./dist/index.d.ts"
     }
   },
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "vite build && tsc --emitDeclarationOnly --outDir dist",
     "typecheck": "tsc --noEmit"
